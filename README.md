@@ -16,7 +16,7 @@ pip install -r /large_scale_sentiment_analysis/webapp/requirements.txt
 ```
 5. Run webserver 
 ```
-python live_twitter_sentiment_analysis/webapp/main.py
+python large_scale_sentiment_analysis/webapp/main.py
 ```
 6. Run the maven-java project (rolling_average) after installing maven dependencies specified in large_scale_sentiment_analysis/rolling_average/pom.xml. Don't forget to set checkpoint dir in Main.java
 
